@@ -1,0 +1,564 @@
+================  AULAS  ===================
+...aulas 1-3 sem pratica real, só ensinando como usar Python, pra que serve, instalação básica...
+
+aula 4: DESAFIOS
+    aprendi try-except, def (funções), etc
+    aprendi int(input) - converter string em número
+    fiz um programinha que pergunta data de nascimento e calcula idade, com validação
+
+aula 5: INSTALAR PYCHARM
+    pprt (pior possível) uso o VS Code, bem melhor
+    foi meio chato fazer o .venv funcionar mas sobrevivi
+    vi que tem que ativar o ambiente virtual separadamente
+
+aula 6: 
+    tipos primitivos (int, float, bool, str)
+    .format {} pra interpolar string
+    print(type()) pra ver o tipo da variável
+    pode ser bem confuso no começo
+
+aula 7:
+    operações aritméticas:
+    la vem a lista...
+
+    ADIÇÃO: +
+    SUBTRAÇÃO: -
+    MULTIPLICAÇÃO: *  POTENCIAÇÃO: **
+    DIVISÃO: /        DIVISÃO INTEIRA //    RESTO DA DIVISÃO %
+    Usa == pra comparar (5 + 2 == 7)
+    ordem de precedência: primeiro parenteses, depois potência, etc
+    como formatar texto básico (.format{:=<>^20}) - centralizar, alinhar texto
+
+aula 8:
+    MÓDULOS AEEEEEE (bibliotecas)
+    import (biblioteca) - importar módulos prontos
+    a felicidade dura pouco, tive que aprender a calcular a hipotenusa de um triângulo retângulo
+    só piora com fórmulas de seno, cosseno, tangente
+    usei math, random, emoji
+
+aula 9:
+    aprendendo a mexer em string
+    comandos tipo upper, capitalize, len, find, replace, split
+    fatiamento de string: frase[9:21:2]
+    strings são imutáveis
+
+aula 10:
+    métodos, funções e condições simples e compostas
+    else e if - primeiras estruturas condicionais
+    operador ternário: print('carro novo' if time <=3 else 'carro velho')
+
+aula 11:
+    formatação de texto no terminal, ou CORZINHA no terminal
+    fiz o módulo Customcolor pra ajudar (não ajudou muito)
+    lá vai ter a lista de cores de fundo, pra mudar a letra tem que tirar 10
+    pra deixar em negrito é \033[1...
+    código ANSI: \033[estilo;cor_texto;cor_fundo
+
+aula 12:
+    NOVO MUNDO ALELUIA
+    if, elif, else - avanço slk
+    isso seriam condições aninhadas
+    elif é tipo um "else if" do C
+
+aula 13:
+    ebaaa laços de repetição
+    for range(), já usei mas agora posso usar melhor
+    nss teve MUITO exercício de treinamento
+    range(inicio, fim, passo)
+
+aula 14:
+    repetições com while básicas
+    while com flag de parada (ex: r != 'n')
+    break pra sair do laço
+    coloquei o projeto no GitHub
+    outro monte de exercício, pelo menos é o penúltimo do mundo 2
+
+aula 15:
+    quebrar uma repetição com break
+    ele tinha ensinado o jeito 'gambiarra' na última aula, mas eu já estava usando
+    eba ele finalmente ensinou flush, tchau format muahahahaha
+    f-strings são melhores que .format()
+
+aula 16:
+    novo e último mundo, acho que estou indo bem
+    tuplas, minha fraqueza (choro)
+    ah tá, é só lista meio diferente
+    () = tupla   [] = lista   {} = dicionário
+    tuplas são imutáveis
+
+aula 17:
+    listas FINALMENTE
+    agora posso usar elas sem sentir que estou burlando algo
+    métodos: append, remove, sort, reverse
+    exercícios bem difíceis e com BASTANTE raciocínio lógico
+
+aula 18:
+    listas pt 2
+    listas compostas são bem úteis
+    mds que exercícios difíceis, fiquei um bom tempo neles :(
+
+aula 19:
+    dicionários, parece JSON pprt (pra ser sincero)
+    bom, mas só usaria ele em listas compostas, sozinho achei bem fraco
+    exercício 91 tava IMPOSSÍVEL, mas consegui
+    .keys(), .values(), .items()
+
+aula 20:
+    funções, estamos chegando no fim do curso
+    usa def e o nome da função
+    que milagre os exercícios estavam fáceis, e chegamos ao exercício 100
+    *args (empacotar parâmetros)
+
+aula 21:
+    docstrings, variáveis globais e locais
+    pt 2 das funções, agora retornando valores com return
+    falta bem pouco e os exercícios foram bem fáceis
+    help() pra ler docstring
+    tô prestando mais atenção nas aulas e tá sendo bem útil
+
+aula 22:
+    modularização de pacotes
+    já fiz isso no Customcolor, mas é bem útil
+    tive problemas no módulo, devia ter usado PyCharm mas de nada
+    criei o pacote Utilidades com Moeda e Dados
+
+aula 23:
+    tratamento de erros e exceções
+    mds Guanabara coach do nada só pq é última aula do mundo 3
+    nss criei o melhor programa de todos
+    os exercícios mais caprichados já feitos do curso
+    try, except, finally, raise
+    tipos de erro: ValueError, ZeroDivisionError, KeyboardInterrupt
+
+EXTRA aula POO:
+    mundo 4????? vou fazer
+    vamos aprender fundamentos POO, vai ser útil pra trajetória
+    object oriented programming (ui europeia)
+    Alan Kay é o pai da POO, o cara é bom
+    object oriented analysis and design (OOAD)
+    unified modeling language (UML)
+    COMERNada: Confiável, Oportuno, Manutenível, Extensível, Reutilizado, Natural
+    classe: formato a ser seguido pra fazer objetos do mesmo tipo/características/comportamentos
+    objeto: produto que está em uma classe
+    ex: planta da casa = CLASSE, casa = OBJETO
+    objeto é a instância de uma classe
+
+aula 24:
+    FINALMENTE VAI COMEÇAR (POO na prática)
+    objeto é uma variável que além de guardar dados pode executar funcionalidades
+    método construtor __init__
+    referência: rich.readthedocs.io
+
+aula 25:
+    eh fiz uma classe melhorada
+    usei a biblioteca rich pra melhorar o texto no terminal
+    é tudo baseado em funções slk
+    métodos especiais: __str__, __dict__, __class__
+
+aula 26:
+    eba exercícios
+    não teve conteúdo, foi só exercício
+    nossa foi mais de 3 horas pra fazer o do controle remoto
+
+aula 27:
+    a POO tem 4 pilares: abstração, encapsulamento, herança, polimorfismo
+    vamos ver herança hoje: é um relacionamento entre itens gerais (ancestrais) e tipos + específicos
+    descendentes herdam atributos e métodos dos níveis superiores
+    vantagens: reutilizar código, organização, facilita manutenção, extensibilidade
+    mãe = superclasse (classe base, ancestral, classe mãe...)
+    filho = subclasse (classe derivada, descendente, classe filha)
+    criei um pacote Aula27 com Person, Aluno, Professor, Funcionário
+
+aula 28:
+    abstração - gostei demais, focar só no fundamental
+    esconder complexidade, mostrar só o essencial
+    {abstract} em função obriga os filhos a fazerem aquela Função
+    classe filho é a classe especializada
+    n tem classe abstrata no python nativo dai importa abc
+
+aula 29:
+    uhh exercícios
+    eita quase 100 linhas de código
+    os mais dificeis até agora
+
+aula 30:
+    encapsulamento, é tipo protejer alguma coisa
+    publico: +        mas no python n vale de Nada
+    protegido: #
+    privado: -
+    no python é na base da fé AAKAKAKAKKA
+
+=============  EXERCÍCIOS  =============
+
+EXERCÍCIO 1: Hello World versionada
+    O clássico "Olá, mundo", mas guardando a mensagem dentro de uma variável 'msg' antes de mostrar. Nada demais, só pra entender que variável guarda valor.
+
+EXERCÍCIO 2: Boas-vindas personalizada
+    Pede o nome da pessoa, guarda numa variável e solta uma mensagem de boas-vindas usando .format(). Também mostra o tipo da variável - sim, string sempre vai ser string.
+
+EXERCÍCIO 3: Somador de números
+    Lê dois números que o usuário digita (já convertendo pra float) e mostra a soma deles com formatação bonitinha. Se liga que tem que converter, senão vira concatenação de string!
+
+EXERCÍCIO 4: Analisador completo de tipos
+    pega QUALQUER coisa que o usuário digitar e desce a lenha nas verificações: se é número, texto, booleano, maiúsculo, minúsculo, capitalizado, alfanumérico, decimal, identificador, dígito, ASCII, espaço... e ainda tem recursão pra perguntar "vamos denovo?".
+
+EXERCÍCIO 5: Antecessor e sucessor
+    Pega um número e calcula quem vem antes (n-1) e quem vem depois (n+1). Simples, mas é a base pra entender operações aritméticas.
+
+EXERCÍCIO 6: Dobro, triplo e raiz quadrada
+    Mostra o dobro (n*2), o triplo (n*3) e a raiz quadrada (n**0.5). Detalhe: raiz quadrada é elevar a 0.5, não precisa de math.sqrt.
+
+EXERCÍCIO 7: Calculadora de média escolar
+    PERGUNTA quantas provas teve no trimestre, depois vai pedindo cada nota uma por uma num laço for, soma tudo, e divide pela quantidade. Média aritmética básica mas com loop dinâmico.
+
+EXERCÍCIO 8: Conversor de metros
+    Converte um valor em metros pra centímetros (x100) e milímetros (x1000). Matemática básica de multiplicação por 10, 100, 1000.
+
+EXERCÍCIO 9: Tabuada manual
+    Mostra a tabuada completa (de 1 a 10) de um número que o usuário digita. Não usou for, fez na mão com .format() gigante multiplicando de 1 a 10. Funciona, mas é bem gambiarra.
+
+EXERCÍCIO 10: Dólar pobre
+    Diz quantos dólares dá pra comprar com uma quantia em reais (cotação fixa de R$3,27). E se não tiver dinheiro suficiente, zoa o usuário chamando de pobre hahaha.
+
+EXERCÍCIO 11: Área e tinta
+    Calcula a área de uma parede (altura x largura) e diz quantos litros de tinta vão ser precisos pra pintar ela, considerando que 1 litro pinta 2m².
+
+EXERCÍCIO 12: Desconto de 5%
+    Aplica um desconto de 5% em um preço (multiplica por 0.95) e mostra o valor final. Porcentagem básica.
+
+EXERCÍCIO 13: Aumento de 15%
+    Calcula quanto vai ser o novo salário de alguém que ganhou um aumento de 15% (multiplica por 1.15). O oposto do desconto.
+
+EXERCÍCIO 14: Conversor Celsius pra Fahrenheit
+    Converte uma temperatura em Celsius pra Fahrenheit usando a fórmula (temp * 9 + 160) / 5.
+
+EXERCÍCIO 15: Aluguel de carro
+    Calcula quanto vai custar alugar um carro: R$60 por dia + R$0,15 por km rodado. Bem realista o preço.
+
+EXERCÍCIO 16: Arredondamento pra baixo
+    Arredonda um número qualquer pra baixo usando math.floor(). Útil quando você não quer aproximar pra cima.
+
+EXERCÍCIO 17: Hipotenusa na unha
+    Calcula o valor da hipotenusa de um triângulo retângulo a partir dos catetos usando a fórmula: (adj**2 + ops**2)**0.5. Sem importar math.
+
+EXERCÍCIO 18: Seno, cosseno e tangente
+    Calcula o seno, cosseno e tangente de um ângulo que o usuário digita. Primeiro converte pra radiano com math.radians().
+
+EXERCÍCIO 19: Sorteio de aluno
+    Pede quantos alunos tem, vai cadastrando os nomes numa lista e depois sorteia um aleatório com random.choice().
+
+EXERCÍCIO 20: Embaralhar ordem
+    Similar ao anterior, mas em vez de sortear UM, ele EMBARALHA a lista inteira com random.shuffle() pra decidir a ordem de apresentação do trabalho.
+
+EXERCÍCIO 21: Tocar música
+    Usa a biblioteca pygame pra tocar um arquivo hello.mp3. Simples, mas foi a primeira vez usando áudio no Python.
+
+EXERCÍCIO 22: Analisador de nome
+    Pega o nome completo da pessoa e mostra: quantas letras tem o primeiro nome, o nome em maiúsculo, em minúsculo (capitalize) e quantas letras tem no total (sem espaços). Usa split, upper, capitalize, len.
+
+EXERCÍCIO 23: Separar dígitos
+    Pega um número qualquer como string e separa cada dígito individualmente. Útil pra entender iteração sobre strings.
+
+EXERCÍCIO 24: Cidade começa com Santo?
+    Verifica se o nome de uma cidade digitada começa com a palavra "Santo". Usa split() e compara a primeira palavra. Bem bobinho.
+
+EXERCÍCIO 25: Tem Silva no nome?
+    Confere se o nome de uma pessoa tem a palavra "Silva" em algum lugar. Usa .find(). Se achar, é True, senão zoa chamando de beta.
+
+EXERCÍCIO 26: Contar letra A
+    Conta quantas vezes a letra "a" aparece numa frase, e mostra a posição da primeira e da última ocorrência. Usa .count(), .find() e .rfind().
+
+EXERCÍCIO 27: Primeiro e último nome
+    Separa o nome completo da pessoa e mostra só o primeiro nome e o último nome. Usa split() e indexação.
+
+EXERCÍCIO 28: Jogo de adivinhação (versão 1)
+    Um joguinho onde o computador "pensa" num número de 0 a 5 com random.randint() e o jogador tenta adivinhar. Se errar, chama de novo recursivamente até acertar. Tem tratamento de erro com try-except.
+
+EXERCÍCIO 29: Radar de multa
+    Um radar fictício: se o carro passar de 80km/h, calcula a multa em R$7 por km acima do limite. Usa um loop for pra somar 7 a cada km excedido. Bem ineficiente mas funcionou.
+
+EXERCÍCIO 30: Par ou ímpar
+    Diz se um número digitado pelo usuário é par ou ímpar usando o operador % (resto da divisão por 2).
+
+EXERCÍCIO 31: Preço da passagem
+    Calcula o preço de uma passagem de ônibus de acordo com a distância: R$0,50/km pra viagens curtas (até 200km) e R$0,45/km pra longas (acima de 200km).
+
+EXERCÍCIO 32: Ano bissexto
+    Verifica se um ano é bissexto usando a regra: divisível por 4 E NÃO divisível por 100, OU divisível por 400.
+
+EXERCÍCIO 33: Maior e menor número
+    Pega uma quantidade de números (definida pelo usuário) e diz qual é o maior entre eles. Usa lista e max().
+
+EXERCÍCIO 34: Aumento salarial condicional
+    Calcula o novo salário com 10% de aumento pra quem ganha MAIS de R$1250 e 15% pra quem ganha MENOS. Uso de cores ANSI no input.
+
+EXERCÍCIO 35: Forma triângulo?
+    Recebe 3 medidas e diz se elas conseguem formar um triângulo. Usa a condição de existência: cada lado menor que a soma dos outros dois. Com corzinha ANSI.
+
+EXERCÍCIO 36: Empréstimo bancário
+    Simula aprovação de empréstimo: calcula prestação mensal (valor / meses) e recusa se passar de 30% do salário. Usa try-except e várias variáveis.
+
+EXERCÍCIO 37: Conversor de bases numéricas
+    Converte um número inteiro pra binário (bin()), octal (oct()) ou hexadecimal (hex()), conforme a escolha do usuário. Menu com if-elif.
+
+EXERCÍCIO 38: Comparador de números
+    Compara dois números e diz qual é o maior. Na real o código tem um bug (append(q) em vez de append(a)), mas a ideia era ser simples.
+
+EXERCÍCIO 39: Alistamento militar
+    Verifica a situação de alistamento pela idade: se tem 18 anos exatos, se passou (e quantos anos atrasado), ou quantos anos faltam.
+
+EXERCÍCIO 40: Aprovado ou reprovado
+    Calcula a média (nota única inserida como "média") e diz se o aluno foi aprovado (>=7), recuperação (>=5) ou reprovado (<5). Mostra quantos pontos faltam.
+
+EXERCÍCIO 41: Categoria de natação
+    Determina a categoria do nadador pela idade: Mirim (<=9), Infantil (<=14), Júnior (<=19), Sênior (<=20), Master (>20). Com print bonito.
+
+EXERCÍCIO 42: Tipo de triângulo
+    Calcula os lados de um triângulo retângulo e diz se ele é Equilátero, Isósceles ou Escaleno. Mas tem um bug: trata como se os catetos formassem a hipotenusa.
+
+EXERCÍCIO 43: Calculadora de IMC
+    Calcula o IMC (peso / altura²) e mostra a classificação: abaixo do peso, ideal, sobrepeso, obeso ou obesidade mórbida (ou órbita como ele brincou).
+
+EXERCÍCIO 44: Forma de pagamento
+    Calcula o valor final de uma compra: desconto de 10% se for dinheiro/cheque à vista, 5% se cartão à vista, e juros com desconto se parcelado.
+
+EXERCÍCIO 45: Pedra, Papel e Tesoura
+    O clássico jogando contra o computador que escolhe aleatoriamente com random.choice(). Usa cores ANSI pra vitória (verde) e derrota (vermelho).
+
+EXERCÍCIO 46: Contagem regressiva
+    Faz uma contagem regressiva de 10 até 0 com time.sleep(1) entre cada número pra dar o climinha de fogos de artifício no Ano Novo.
+
+EXERCÍCIO 47: Números pares
+    Mostra todos os números pares no intervalo de 1 a 50 usando for com step de 2. Simples e direto.
+
+EXERCÍCIO 48: Soma dos ímpares múltiplos de 3
+    Soma todos os números ímpares que são múltiplos de 3 no intervalo de 1 a 500. Usa lista e sum().
+
+EXERCÍCIO 49: Tabuada com for
+    Refaz a tabuada do exercício 9, mas agora com um for loop bem mais elegante de 1 a 10.
+
+EXERCÍCIO 50: Só os pares
+    Soma 6 números que o usuário digita, mas só considera os pares (ímpares são ignorados). Tem um bug no operador (& em vez de %).
+
+EXERCÍCIO 51: Progressão Aritmétrica
+    Gera os primeiros termos de uma PA a partir do primeiro termo e da razão. Mas tem bug de lógica na fórmula do for.
+
+EXERCÍCIO 52: Número primo (bugado)
+    Tenta verificar se um número é primo mas tem erro de divisão por zero no range começando em 0.
+
+EXERCÍCIO 53: Palíndromo
+    Verifica se uma frase é palíndromo (lê igual de trás pra frente, ignorando espaços). Inverte a string manualmente com um loop.
+
+EXERCÍCIO 54: Maioridade em grupo
+    Lê a idade de quantas pessoas o usuário quiser e conta quantas são maiores (>=18) e quantas são menores de idade.
+
+EXERCÍCIO 55: Análise de grupo
+    Analisa um grupo de pessoas: mostra a média de idade, quem é o homem mais velho (nome) e quantas mulheres têm menos de 20 anos.
+
+EXERCÍCIO 56: Validação de sexo
+    Pede o sexo (M/F) e fica num loop while até o usuário digitar um valor válido. Se errar, mensagem de erro e pede de novo.
+
+EXERCÍCIO 57: Jogo de adivinhação v2
+    Mesma ideia do exercício 28 mas AGORA com while loop (não recursão) e contagem de tentativas. Mostra quantas tentativas precisou.
+
+EXERCÍCIO 58: Menu interativo
+    Um menu com 5 opções: somar, multiplicar, achar maior, adicionar novo número, ou sair. Fica em loop até escolher sair. Usa math.prod().
+
+EXERCÍCIO 59: Fatorial
+    Calcula o fatorial de um número multiplicando todos os inteiros de N até 1. Usa math.prod() com uma lista decrescente.
+
+EXERCÍCIO 60: PA com while
+    Refaz o exercício da Progressão Aritmétrica mas agora com while em vez de for. Bem mais estável.
+
+EXERCÍCIO 61: PA melhorada
+    Mesmo exercício 60 mas permite ao usuário ver MAIS termos depois dos 10 iniciais. Digita quantos quer ver ou 0 pra sair.
+
+EXERCÍCIO 62: Sequência de Fibonacci
+    Gera a sequência de Fibonacci com a quantidade de termos que o usuário quiser. Lógica: a, b = b, a+b. Clássico.
+
+EXERCÍCIO 63: Tratamento de dados com flag
+    Lê números até o usuário digitar 999 (flag de parada). Mostra quantos números foram digitados e a soma total.
+
+EXERCÍCIO 64: Média com continuação
+    Lê números e perguntar se quer continuar. No final mostra a média (inteira, arredondada) de todos os números.
+
+EXERCÍCIO 65: Soma com break
+    Usa while True com break no 999. Conta quantos números foram digitados e a soma. Bem similar ao 63 mas com estrutura diferente.
+
+EXERCÍCIO 66: Tabuada com validação
+    Mostra a tabuada de qualquer número positivo. Se digitar negativo, o programa encerra. Usa while True e break.
+
+EXERCÍCIO 67: Par ou ímpar (jogo)
+    Jogo de par ou ímpar contra o computador. Mostra quantas vitórias consecutivas o jogador teve até perder.
+
+EXERCÍCIO 68: Análise de dados composto
+    Cadastra pessoas (sexo e idade) até o usuário querer parar. Mostra: total de maiores de idade, quantos homens, e quantas mulheres com menos de 20 anos.
+
+EXERCÍCIO 69: Estatística de produtos
+    Cadastra produtos (nome e preço) até o usuário parar. Mostra: total gasto, quantos produtos custam mais de R$1000, e o nome do produto mais barato.
+
+EXERCÍCIO 70: Caixa eletrônico
+    Simula um caixa eletrônico: o usuário digita o valor a sacar e o programa calcula quantas cédulas de 50, 20, 10 e 1 vai precisar.
+
+EXERCÍCIO 71: (Pula pro 72 - 71 não existe como arquivo separado)
+    
+EXERCÍCIO 72: Número por extenso
+    Tupla com números de 0 a 20 por extenso. Usuário digita um número e vê ele escrito. Se digitar -1, sai do programa.
+
+EXERCÍCIO 73: Times de futebol
+    Tupla com times do Brasileirão. Mostra os 5 primeiros, os 4 últimos (em ordem reversa), ordem alfabética e a posição da Chapecoense.
+
+EXERCÍCIO 74: Números aleatórios
+    Gera 5 números aleatórios entre 1 e 1000 com random.sample(), coloca numa tupla e mostra o menor e o maior valor.
+
+EXERCÍCIO 75: Análise de tupla
+    Lê 4 números inteiros do usuário, coloca numa tupla. Mostra quantas vezes o 9 apareceu, a posição do primeiro 3, e quantos números pares foram digitados.
+
+EXERCÍCIO 76: Lista de compras
+    Usuário cadastra produtos e preços. No final, mostra uma tabelinha com os nomes e preços alinhados com pontos.
+
+EXERCÍCIO 77: Vogais das palavras
+    Tupla de palavras. Pra cada palavra, mostra quais são as vogais (removendo as consoantes). Bem criativo.
+
+EXERCÍCIO 78: Maior e menor com posições
+    Lê números e mostra o maior e o menor valor. Se aparecerem mais de uma vez, mostra todas as posições em que aparecem.
+
+EXERCÍCIO 79: Lista sem duplicatas
+    Lê números e adiciona numa lista, mas SÓ se o valor ainda não estiver na lista (evita duplicatas). No final, mostra a lista ordenada.
+
+EXERCÍCIO 80: Ordenação manual
+    A primeira parte tenta ordenar manualmente com uma lógica confusa de 3 variáveis. A segunda parte implementa um bubble sort manual que funciona direitinho.
+
+EXERCÍCIO 81: Lista decrescente
+    Lê números e mostra: quantos elementos foram digitados, a lista em ordem decrescente, e se o valor 5 está na lista.
+
+EXERCÍCIO 82: Separar pares e ímpares
+    Lê números e separa em duas listas: uma só com os pares e outra só com os ímpares. Mostra as 3 listas (original, pares, ímpares).
+
+EXERCÍCIO 83: Validador de expressão
+    Verifica se uma expressão matemática tem os parênteses, colchetes e chaves balanceados (todos em pares). Usa %2 pra ver se é par.
+
+EXERCÍCIO 84: Pesos dos alunos
+    Cadastra nome e peso de várias pessoas. Mostra quem tem o maior peso e quem tem o menor peso (pode ser mais de uma pessoa).
+
+EXERCÍCIO 85: Lista composta com pares/ímpares
+    Lê 7 números e coloca os pares numa sublista e os ímpares em outra. Mostra as duas listas ordenadas.
+
+EXERCÍCIO 86: Matriz 3x3
+    Cria uma matriz 3x3 manualmente (com listas dentro de listas) preenchendo posição por posição. Mostra a matriz no final.
+
+EXERCÍCIO 87: Matriz com análise
+    Mesma matriz 3x3 mas agora calcula: soma dos valores pares, soma dos valores da terceira coluna, e o maior valor da segunda linha.
+
+EXERCÍCIO 88: Sorteio da Mega
+    Simula a Mega-Sena: usuário escolhe quantos jogos quer e o programa sorteia 6 números aleatórios entre 1 e 60 pra cada jogo.
+
+EXERCÍCIO 89: Boletim escolar
+    Cadastra alunos com nome e 2 notas. No final mostra um boletim com nome, média. Depois permite consultar as notas individuais de cada aluno pelo nome.
+
+EXERCÍCIO 90: Dicionário de alunos
+    Usa dicionário pra guardar nome, média e situação (aprovado/reprovado) de cada aluno. Mostra todos os dados de forma organizada.
+
+EXERCÍCIO 91: Jogo de dados
+    4 jogadores jogam um dado de 6 faces cada. O programa sortea os valores, guarda num dicionário e depois mostra o ranking do 1° ao 4° lugar.
+
+EXERCÍCIO 92: Carteira de trabalho
+    Usa dicionário pra cadastrar trabalhador: nome, idade (calculada pelo ano de nascimento), ID da carteira, ano de contratação, salário, e calcula quando vai se aposentar (60 - idade de contratação).
+
+EXERCÍCIO 93: Aproveitamento de jogador
+    Cadastra nome, idade, partidas e gols por partida. Calcula total de gols e mostra um resumo completo do desempenho.
+
+EXERCÍCIO 94: Análise de grupo (dicionários)
+    Cadastra várias pessoas (nome, idade, sexo) usando dicionários numa lista. Mostra: total de pessoas, mulheres cadastradas, média de idade, e quem está acima da média.
+
+EXERCÍCIO 95: Aproveitamento múltiplo
+    Versão melhorada do 93: cadastra VÁRIOS jogadores, mostra uma tabela com ID, nome e total de gols, e permite consultar detalhes de cada jogador pelo ID.
+
+EXERCÍCIO 96: Área do terreno (função)
+    Função area() que recebe largura e comprimento e retorna a área. Primeiro exercício de função do mundo 3.
+
+EXERCÍCIO 97: Texto adaptável
+    Função adaptitle() que recebe um texto e imprime ele centralizado com linhas na frente e atrás, adaptando o tamanho ao texto.
+
+EXERCÍCIO 98: Função de contagem
+    Três funções de contagem: de 1 a 10, de 10 a 0 pulando 2, e uma contagem personalizada com início, fim e passo. Usa sleep e flush.
+
+EXERCÍCIO 99: Maior valor (função)
+    Função maior() que recebe vários números com *args e retorna o maior valor digitado. Trata o caso de nenhum valor informado.
+
+EXERCÍCIO 100: Sorteio e soma
+    Função sorteio() que gera uma lista de números aleatórios. Função sump() que soma só os pares da lista. Mostra os números sorteados e a soma dos pares.
+
+EXERCÍCIO 101: Votação
+    Função vote() que recebe ano de nascimento e retorna se o voto é NEGADO (<18), OBRIGATÓRIO (<60) ou OPCIONAL (>=60).
+
+EXERCÍCIO 102: Fatorial com show
+    Função factorial() que calcula fatorial e tem um parâmetro show opcional que, se True, mostra o passo a passo do cálculo.
+
+EXERCÍCIO 103: Ficha do jogador
+    Função ficha() que recebe nome (default="<desconhecido>") e gols (default=0) e retorna uma string formatada.
+
+EXERCÍCIO 104: Validador de inteiro
+    Função leiaInt() que fica pedindo um número inteiro até o usuário digitar um válido. Usa try-except com tratamento de erro e cor vermelha.
+
+EXERCÍCIO 105: Analisador de notas
+    Função notas() que recebe várias notas e retorna um dicionário com: quantidade, maior, menor, média, e situação (opcional, com parâmetro situation).
+
+EXERCÍCIO 106: Sistema de ajuda
+    Sistema interativo que mostra o help() de qualquer comando/função que o usuário digitar, com formatação colorida. Digita 'quit' pra sair.
+
+EXERCÍCIO 107: Módulo de finanças
+    Cria funções aumento(), reduzir(), dobro(), metade() num módulo separado. Primeiro contato com modularização na prática.
+
+EXERCÍCIO 108: Módulo com formatação
+    Adiciona a função moeda() que formata valores no padrão brasileiro (R$X,XX) ao módulo de finanças.
+
+EXERCÍCIO 109: Módulo com parâmetro formatado
+    Melhora as funções do módulo financeiro com um parâmetro formated=True que retorna os valores já formatados em reais.
+
+EXERCÍCIO 110: Resumo financeiro
+    Função sumarize() que mostra um resumo completo de um valor: dobro, metade, aumento e redução, tudo formatado.
+
+EXERCÍCIO 111: Pacote Utilidades
+    Organiza as funções financeiras num pacote com submódulos Moeda e Dados.
+
+EXERCÍCIO 112: Validador de dinheiro
+    Função leiadinheiro() que valida entrada de valores monetários, tratando vírgula como ponto.
+
+EXERCÍCIO 113: Validador de inteiro e float
+    Duas funções: leiaInt() e leiaFloat() que validam entrada de números e tratam KeyboardInterrupt (se o usuário apertar Ctrl+C).
+
+EXERCÍCIO 114: Site acessível?
+    Verifica se o site pudim.com.br está acessível usando a biblioteca requests. Se conseguir conectar, diz que está disponível.
+
+EXERCÍCIO 115: (POO) Classe Funcionário
+    Primeira classe POO. Tem atributos nome, setor, cargo. Método present() que se apresenta, com opção de mostrar num painel do Rich.
+
+EXERCÍCIO 116: (POO) Classe Produto
+    Classe product com nome e preço. Método ShowTable() que mostra uma tabela formatada com Rich Table.
+
+EXERCÍCIO 117: (POO) Calculadora de churrasco
+    Classe Churrasco que calcula quanto de carne comprar pra um churrasco (400g por pessoa, a R$82,40/kg) e quanto cada um paga.
+
+EXERCÍCIO 118: (POO) Simulador de livro
+    Classe Livro que simula a leitura: métodos avançar_pagina() e regredir_pagina() com efeito visual de animação (sleep+flush).
+
+EXERCÍCIO 119: (POO) Gamer
+    Classe Gamer com nome, nick e lista de jogos. Métodos: Ficha() pra mostrar dados e add_game() pra adicionar jogos favoritos.
+
+EXERCÍCIO 120: (POO) Caneta colorida
+    Classe Caneta com cor e estado (tampada/destampada). Método unclog() pra destampar e write() pra escrever na cor escolhida (usando Rich).
+
+EXERCÍCIO 122: (POO) Controle Remoto
+    Classe ControleRemoto que simula uma TV. Tem canal, volume (barra visual), liga/desliga. Navegação com <> pra canal e +- pra volume. Usa Rich pra interface visual. Foi o exercício mais complexo do curso.
+
+=============  DICAS  ===================
+int não suporta número com vírgula, usa float
+string suporta número, pode enganar com int/float
+string é imutável
+pra mudar é str = str.(o que tu quiser)
+métodos SEMPRE são fechados por ()
+Fluxo básico do GitHub (pra esse projeto):
+    git remote add origin https://github.com/arturjoaodaros-dev/PhytonCurso
+    git push -u origin main
+TUPLAS SÃO IMUTÁVEIS
